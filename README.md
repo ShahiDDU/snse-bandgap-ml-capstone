@@ -11,13 +11,13 @@ Capstone project — Machine Learning for Materials and Metallurgical Engineerin
 
 ## Group
 
-| Role | Institution |
-|---|---|
-| Group Leader & Modeling Lead | Deen Dayal Upadhyaya Gorakhpur University |
-| Data Lead | Chaudhary Charan Singh University, Meerut |
-| Preprocessing Lead | Era University |
-| Report Lead | Era University |
-| Presentation Lead | Era University |
+| Role |
+|---|
+| Group Leader & Modeling Lead |
+| Data Lead |
+| Preprocessing Lead |
+| Report Lead |
+| Presentation Lead |
 
 ## Running the notebook
 
