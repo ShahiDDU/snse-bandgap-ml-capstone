@@ -11,13 +11,13 @@ Capstone project — Machine Learning for Materials and Metallurgical Engineerin
 
 ## Group
 
-| Name | Role | Institution |
-|---|---|---|
-| Dr. Prashant Shahi | Group Leader & Modeling Lead | Deen Dayal Upadhyaya Gorakhpur University |
-| Mrs. Akanksha | Data Lead | Chaudhary Charan Singh University, Meerut |
-| Dr. Santosh Kumar | Preprocessing Lead | Era University |
-| Mrs. Alfiya Mahmood | Report Lead | Era University |
-| Dr. Nagendra Kumar Singh | Presentation Lead | Era University |
+| Role | Institution |
+|---|---|
+| Group Leader & Modeling Lead | Deen Dayal Upadhyaya Gorakhpur University |
+| Data Lead | Chaudhary Charan Singh University, Meerut |
+| Preprocessing Lead | Era University |
+| Report Lead | Era University |
+| Presentation Lead | Era University |
 
 ## Running the notebook
 
