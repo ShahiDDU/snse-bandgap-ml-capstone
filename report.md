@@ -111,4 +111,4 @@ A composition-only Random Forest model can distinguish Sn-Se-based metals from i
 
 ## 7. Code / Notebook
 
-Working notebook: `band_gap_snse_materials.ipynb` — [insert GitHub/Drive link here before submission].
+Working notebook and full project files: https://github.com/ShahiDDU/snse-bandgap-ml-capstone
