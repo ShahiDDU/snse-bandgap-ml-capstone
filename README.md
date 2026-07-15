@@ -8,6 +8,7 @@ Capstone project — Machine Learning for Materials and Metallurgical Engineerin
 - `SnSe_Capstone_Report.docx` — written report, following the official FDP capstone report template.
 - `SnSe_Capstone_Slides.pptx` — presentation slides, following the official FDP capstone presentation template.
 - `figures/` — result figures used in the report, slides, and notebook.
+- `Beginners_Guide_Explanation.docx` — a from-scratch explainer covering every concept and every line of code used in this project, for presentation prep.
 
 ## Group
 
