@@ -7,6 +7,10 @@ Capstone project — Machine Learning for Materials and Metallurgical Engineerin
 - `band_gap_snse_materials.ipynb` — working notebook (follows the official FDP capstone notebook template structure): queries the Materials Project for Sn-Se-based compounds, featurizes with matminer (Magpie), and trains classification (metal vs. insulator) and regression (band gap) models with 5-fold cross-validation.
 - `SnSe_Capstone_Report.docx` — written report, following the official FDP capstone report template.
 - `SnSe_Capstone_Slides.pptx` — presentation slides, following the official FDP capstone presentation template.
+- `report/SnSe_Capstone_Report_TeX.pdf` — polished PDF report generated from TeX.
+- `report/SnSe_Capstone_Report_TeX.tex` — editable TeX source for the report.
+- `slides/SnSe_Capstone_Beamer.pdf` — polished 10-minute presentation generated from Beamer.
+- `slides/SnSe_Capstone_Beamer.tex` — editable TeX source for the presentation.
 - `figures/` — result figures used in the report, slides, and notebook.
 - `Beginners_Guide_Explanation.docx` — a from-scratch explainer covering every concept and every line of code used in this project, for presentation prep.
 
@@ -23,3 +27,26 @@ Capstone project — Machine Learning for Materials and Metallurgical Engineerin
 ## Running the notebook
 
 Requires a free Materials Project API key (https://next-gen.materialsproject.org/api), set as the `MP_API_KEY` environment variable, plus `mp-api pymatgen matminer scikit-learn pandas matplotlib seaborn`.
+
+Example:
+
+```bash
+export MP_API_KEY="your-own-key-here"
+jupyter notebook band_gap_snse_materials.ipynb
+```
+
+Do not commit real keys, `.env` files, or private credential files. The repository is configured to ignore common local credential files.
+
+## Building the TeX files
+
+From the repository root:
+
+```bash
+cd report
+pdflatex -interaction=nonstopmode SnSe_Capstone_Report_TeX.tex
+pdflatex -interaction=nonstopmode SnSe_Capstone_Report_TeX.tex
+
+cd ../slides
+pdflatex -interaction=nonstopmode SnSe_Capstone_Beamer.tex
+pdflatex -interaction=nonstopmode SnSe_Capstone_Beamer.tex
+```
